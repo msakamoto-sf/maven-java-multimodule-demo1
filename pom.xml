@@ -25,6 +25,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <!-- for Eclipse m2e plugin -->
+  <repositories>
+    <repository>
+      <id>projectlocalrepo</id>
+      <url>file://${project.basedir}/localrepo</url>
+    </repository>
+  </repositories>
+
   <modules>
     <module>demo-jar</module>
     <module>demo-war</module>
